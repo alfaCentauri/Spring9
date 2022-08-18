@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Ejecutable {
 
 	public static void main(String[] args) {
-		System.out.println("Demostración del uso de la anotación bean y archivo de propiedades en Spring con Java 8.");
+		System.out.println("Demostración del uso de la anotación bean y archivo de propiedades en Spring con Java 11.");
 		try {
 			AnnotationConfigApplicationContext contexto = new AnnotationConfigApplicationContext();
 			contexto.register(EmpleadosConfig.class);
